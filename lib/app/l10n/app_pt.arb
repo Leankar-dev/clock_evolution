@@ -1,0 +1,51 @@
+{
+  "@@locale": "pt",
+  "appTitle": "Relógio",
+  "stopwatchTitle": "CRONÓMETRO",
+  "stopwatchRunning": "A correr",
+  "stopwatchPaused": "Em pausa",
+  "stopwatchIdle": "Parado",
+  "lap": "Volta",
+  "lapNumber": "Volta {number}",
+  "@lapNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "pause": "Pausar",
+  "resume": "Retomar",
+  "start": "Iniciar",
+  "reset": "Zerar",
+  "resetConfirmTitle": "Zerar cronómetro?",
+  "resetConfirmMessage": "O tempo e as voltas registadas serão apagados.",
+  "cancel": "Cancelar",
+  "toggleThemeSemantic": "Alternar tema",
+  "analogClockSemantic": "Relógio analógico, {time}",
+  "@analogClockSemantic": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "yearAndCity": "{year} · {city}",
+  "@yearAndCity": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Definições",
+  "cityLabel": "Cidade",
+  "citySave": "Guardar",
+  "cityInvalid": "Indique entre 1 e 40 caracteres.",
+  "smoothSecondHand": "Ponteiro de segundos suave",
+  "retry": "Tentar novamente",
+  "loadError": "Não foi possível carregar os dados."
+}

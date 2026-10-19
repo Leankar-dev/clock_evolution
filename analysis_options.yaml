@@ -1,0 +1,23 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "lib/app/l10n/generated/**"
+    - build/**
+    - android/**
+    - windows/**
+
+linter:
+  rules:
+    public_member_api_docs: false
+    lines_longer_than_80_chars: false
+    always_use_package_imports: true
+    prefer_relative_imports: false
+    unnecessary_type_name_in_constructor: false
+    sort_pub_dependencies: true
